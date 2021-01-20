@@ -1,17 +1,3 @@
-erb :index
-	end
-
-	get '/hello' do
-		erb :hello
-	end
-
-	get '/goodbye' do
-		erb :goodbye
-	end
-
-	get '/date' do
-		erb :date
-	end
-
-
+get '/' do
+    "<h1>Hello World</h1>"
 end
